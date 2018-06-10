@@ -15,7 +15,11 @@
    <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
         <version>2.0.2.RELEASE</version>
+=======
+        <version>1.4.7.RELEASE</version>
+>>>>>>> 24952e9bf3a63a0c18a98b88dafb7b7a40dadc8d
     </parent>
 
  <properties>
@@ -23,6 +27,7 @@
   </properties>
   
   <dependencies>
+<<<<<<< HEAD
   	<dependency>
 	    <groupId>mysql</groupId>
 	    <artifactId>mysql-connector-java</artifactId>
@@ -31,6 +36,17 @@
   	<dependency>
 	    <groupId>org.springframework.boot</groupId>
 	    <artifactId>spring-boot-starter-web</artifactId>
+=======
+  <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <scope>runtime</scope>
+</dependency>
+  	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-web</artifactId>
+	    <version>2.0.2.RELEASE</version>
+>>>>>>> 24952e9bf3a63a0c18a98b88dafb7b7a40dadc8d
 	</dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
